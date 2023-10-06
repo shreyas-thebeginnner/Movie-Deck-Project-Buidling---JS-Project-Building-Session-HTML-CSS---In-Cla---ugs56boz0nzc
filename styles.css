@@ -1,1 +1,122 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 300px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: rgb(209, 204, 204);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Add styles for sorting options, tabs, movie cards, pagination, and footer as needed. */
+.sorting-options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+    column-gap: 43px;
+}
+
+.tabs{
+    margin-left: 18px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    list-style: none;
+}
+
+.movie-card {
+    width: 230px;
+    height: auto;/* Adjust the width as per your design */
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.movie-card img {
+    width: 190px;
+    height: 240px;
+    margin-bottom: 10px;
+}
+
+.movie-card h2 {
+    font-size: 18px;
+    margin: 0;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 12px;
+
+}
+
+.movie-card p {
+    margin: 5px 0;
+}
+/* .movie-card:hover{
+    transform:scale(1.2);
+} */
+
+
+.fav-button{
+    position: relative; 
+    top: -78px;
+    right: -131px;
+}
+
+.movie-card .remove-button {
+    display: none;
+} 
